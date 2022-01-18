@@ -2,7 +2,7 @@ export const motive = [
   {
     id: 1,
     img: 'https://cdn-icons-png.flaticon.com/512/1051/1051326.png',
-    url: 'https://github.com/snrtn/persofolio',
+    url: 'https://github.com/snrtn/portfolio',
     name: 'Souce code',
   },
   {

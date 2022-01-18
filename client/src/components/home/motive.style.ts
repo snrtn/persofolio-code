@@ -16,12 +16,12 @@ export const Container = styled.div`
 `;
 export const Wrapper = styled.div`
   width: ${variable.w1300px};
-  height: 400px;
+  height: 420px;
   display: flex;
   ${r768px({ padding: '30px 10px', height: 'auto', width: '100%', flexDirection: 'column' })}
 `;
 export const Left = styled.div`
-  height: 400px;
+  height: 420px;
   padding: 20px 50px;
   flex: 1;
   display: flex;
@@ -32,14 +32,15 @@ export const Left = styled.div`
   ${r768px({ padding: '0px 20px' })}
 `;
 export const IconImg = styled.img`
-  width: 92%;
+  width: 100%;
   height: 100%;
   border-radius: 12px;
   background: no-repeat center cover;
   transition: all 1s;
+  /* transform: scale(1.1); */
   ${Left}:hover & {
     @media (hover: hover) {
-      transform: scale(0.98);
+      transform: scale(0.95);
     }
   }
 `;
@@ -95,7 +96,7 @@ export const ItmeBox = styled.div`
 `;
 export const Item = styled.a`
   width: 80%;
-  height: 165px;
+  height: 175px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -107,7 +108,7 @@ export const Item = styled.a`
   ${r768px({ width: '100%', height: '140px' })}
   &:hover {
     @media (hover: hover) {
-      transform: scale(1.02);
+      transform: scale(1.05);
     }
   }
 
