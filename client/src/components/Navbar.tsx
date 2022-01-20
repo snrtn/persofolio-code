@@ -12,8 +12,8 @@ import {
   Icon,
   Burger,
 } from './navbar.style';
-// data
-import { navbar } from './navbar.data';
+// router
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -22,14 +22,22 @@ const Navbar = () => {
     <Container>
       <Wrapper>
         <Left>
-          <Logo>Junhan</Logo>
+          <Link to="/">
+            <Logo>Junhan</Logo>
+          </Link>
         </Left>
         <Center></Center>
         <Right>
           <Menu open={open}>
-            {navbar.map((item) => (
-              <Item key={item.id}>{item.name}</Item>
-            ))}
+            <Link to="/curriculum">
+              <Item>Curriculum</Item>
+            </Link>
+            <Link to="/apprendre">
+              <Item>Apprendre</Item>
+            </Link>
+            <Link to="/contact">
+              <Item>Contact</Item>
+            </Link>
           </Menu>
 
           <Icon onClick={() => setOpen(!open)}>
