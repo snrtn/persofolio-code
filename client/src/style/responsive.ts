@@ -3,7 +3,7 @@ import { css } from 'styled-components';
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const r768px = (props: any) => {
   return css`
-    @media only screen and (min-width: 280px) and (max-width: 768px) {
+    @media only screen and (min-width: 0px) and (max-width: 768px) {
       ${props}
     }
   `;

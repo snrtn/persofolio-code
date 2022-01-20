@@ -5,6 +5,8 @@ import { Container } from './home.style';
 import Slider from '../components/home/Slider';
 import Motive from '../components/home/Motive';
 import Project from '../components/home/Project';
+import Presente from '../components/home/Presente';
+import Annonce from '../components/home/Annonce';
 
 const Home = () => {
   return (
@@ -12,6 +14,8 @@ const Home = () => {
       <Slider />
       <Motive />
       <Project />
+      <Presente />
+      <Annonce />
     </Container>
   );
 };

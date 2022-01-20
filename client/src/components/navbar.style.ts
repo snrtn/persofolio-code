@@ -21,7 +21,7 @@ export const Wrapper = styled.nav`
   display: flex;
   padding: 0px 70px;
 
-  ${r768px({ padding: '0px 10px' })}
+  ${r768px({ padding: '0px 30px' })}
 `;
 
 export const Left = styled.div`
@@ -103,7 +103,7 @@ export const Menu = styled.ul<open>`
   }
 `;
 
-export const Item = styled.li`
+export const Item = styled.a`
   width: 100%;
   height: 60px;
   line-height: 60px;

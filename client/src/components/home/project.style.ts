@@ -10,14 +10,16 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   background: #0a3d62;
+  overflow: hidden;
   ${r768px({
     width: '100%',
   })};
 `;
-export const Wrapper = styled.section`
+export const Wrapper = styled.div`
   width: ${variable.w1300px};
   height: 500px;
   padding: 20px 50px;
+  overflow: hidden;
   ${r768px({
     width: '100%',
     height: '100%',
