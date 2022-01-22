@@ -13,7 +13,7 @@ export const Container = styled.section`
 `;
 
 export const Wrapper = styled.div`
-  width: 1150px;
+  width: 1200px;
   height: 500px;
   box-sizing: border-box;
   display: flex;
@@ -50,13 +50,13 @@ export const Title = styled.a`
   color: ${variable.white};
   font-size: ${variable.d24px};
   font-family: 'Lora', serif;
-  margin-left: 125px;
+  margin-left: 95px;
   ${r768px({
     fontSize: variable.m18px,
     margin: 'auto',
   })};
   ${r1280px({
     fontSize: variable.m20px,
-    marginLeft: '125px',
+    marginLeft: '65px',
   })};
 `;
