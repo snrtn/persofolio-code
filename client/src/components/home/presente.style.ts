@@ -9,7 +9,7 @@ type call = {
 export const Container = styled.div`
   width: 100%;
   height: 100%;
-  background: #006266;
+  background: #e67e22;
   display: flex;
   justify-content: center;
   margin-top: 10px;
@@ -51,7 +51,7 @@ export const Info = styled.article`
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  font-size: ${variable.d24px};
+  font-size: ${variable.d20px};
   ${r768px({
     width: '100%',
     height: '250px',
@@ -121,22 +121,17 @@ export const Info = styled.article`
     }
   }
 `;
-export const Name = styled.p`
-  font-family: 'Lora', serif;
-`;
+export const Name = styled.p``;
 
 export const Phone = styled.p`
-  font-family: 'Lora', serif;
   margin-top: 20px;
 `;
 export const Email = styled.a`
   color: ${variable.white};
   text-decoration: 1.2px underline ${variable.blue};
-  font-family: 'Lora', serif;
   margin-top: 20px;
 `;
 export const Address = styled.p`
-  font-family: 'Lora', serif;
   margin-top: 20px;
 `;
 

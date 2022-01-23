@@ -9,7 +9,7 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #0a3d62;
+  background: #006266;
   overflow: hidden;
   ${r768px({
     width: '100%',
@@ -31,6 +31,7 @@ export const SubWrapper = styled.section`
   height: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   overflow: hidden;
   ${r768px({
     width: '100%',
@@ -42,6 +43,7 @@ export const Item = styled.article`
   flex: 1;
   height: 440px;
   margin-right: 10px;
+
   z-index: 5px;
   ${r768px({
     width: '100%',
@@ -51,11 +53,11 @@ export const Item = styled.article`
   })};
 `;
 export const ItemBox = styled.a`
-  width: 270px;
+  width: 300px;
   height: 100%;
   display: inline-block;
   border-radius: 12px;
-  background: #444444;
+  background: #444;
   overflow: hidden;
   ${r768px({
     width: '100%',

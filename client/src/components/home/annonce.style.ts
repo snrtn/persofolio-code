@@ -5,7 +5,7 @@ import variable from '../../style/variable';
 export const Container = styled.section`
   width: 100%;
   height: 100%;
-  background: #e67e22;
+  background: #006266;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -48,8 +48,7 @@ export const Right = styled.div`
 
 export const Title = styled.a`
   color: ${variable.white};
-  font-size: ${variable.d24px};
-  font-family: 'Lora', serif;
+  font-size: ${variable.d20px};
   margin-left: 95px;
   ${r768px({
     fontSize: variable.m18px,

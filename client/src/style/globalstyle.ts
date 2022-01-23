@@ -2,8 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
 * {
-        /* not del ++++ font-family: 'Lora', serif; */
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Lora', serif;
         margin: 0;
         font-weight: 400;
         box-sizing: border-box;
