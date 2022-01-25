@@ -7,20 +7,20 @@ type call = {
 };
 
 export const Container = styled.div`
+  margin-top: 10px;
   width: 100%;
   height: 100%;
-  background: #e67e22;
+  background: #e8702a;
   display: flex;
   justify-content: center;
-  margin-top: 10px;
   ${r768px({})}
 `;
 
 export const Wrapper = styled.div`
   width: ${variable.w1300px};
-  height: 500px;
+  height: 420px;
   display: flex;
-  padding: 0px 100px 0px 50px;
+  padding: 0px 65px 0px 65px;
   ${r768px({ width: '100%', height: '100%', flexDirection: 'column', padding: '0px 30px' })}
   ${r1280px({
     padding: '0px 30px',
@@ -29,7 +29,7 @@ export const Wrapper = styled.div`
 
 export const Left = styled.section`
   flex: 1;
-  height: 500px;
+  height: 100%;
   display: flex;
   justify-content: Left;
   align-items: center;
@@ -42,8 +42,8 @@ export const Left = styled.section`
 `;
 
 export const Info = styled.article`
-  width: 99%;
-  height: 450px;
+  width: 100%;
+  height: 100%;
   color: ${variable.white};
   border-radius: 12px;
 
@@ -121,23 +121,28 @@ export const Info = styled.article`
     }
   }
 `;
-export const Name = styled.p``;
+export const Name = styled.p`
+  font-weight: 500;
+`;
 
 export const Phone = styled.p`
+  font-weight: 500;
   margin-top: 20px;
 `;
 export const Email = styled.a`
+  font-weight: 500;
   color: ${variable.white};
-  text-decoration: 1.2px underline ${variable.blue};
+  text-decoration: 1.2px underline ${variable.royalblue};
   margin-top: 20px;
 `;
 export const Address = styled.p`
+  font-weight: 500;
   margin-top: 20px;
 `;
 
 export const Right = styled.div`
   flex: 1;
-  height: 500px;
+  height: 100%;
   display: flex;
   justify-content: Right;
   align-items: center;
@@ -145,14 +150,15 @@ export const Right = styled.div`
 `;
 
 export const Image = styled.div`
-  width: 99%;
-  height: 450px;
-  background: white;
+  width: 100%;
+  height: 370px;
   border-radius: 12px;
-  background-image: url('https://cdn.pixabay.com/photo/2019/05/23/13/03/video-production-4223885_1280.jpg');
-  background-position: left;
+  background-image: url('https://cdn.pixabay.com/photo/2021/10/27/04/39/camera-6745941_960_720.jpg');
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  position: relative;
   cursor: pointer;
   ${r768px({
     width: '100%',
@@ -161,15 +167,34 @@ export const Image = styled.div`
     marginBottom: '20px',
   })};
 `;
+
+export const Text = styled.p`
+  font-weight: 500;
+  color: white;
+  font-size: ${variable.d20px};
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transition: all 1s;
+  transform: translate(-50%, -50%);
+  ${Image}:hover & {
+    @media (hover: hover) {
+      transform: translate(-50%, -50%) scale(1.2);
+    }
+  }
+`;
+
 export const Video = styled.video<call>`
   display: ${(props) => !props.call && 'none'};
-  width: 99%;
-  height: 450px;
+  width: 100%;
+  height: 400px;
+  background: black;
   cursor: pointer;
   position: absolute;
+  border-radius: 12px;
   ${r768px({
     width: '100%',
-    height: '250px',
+    height: '300px',
     marginTop: '20px',
     marginBottom: '20px',
   })};

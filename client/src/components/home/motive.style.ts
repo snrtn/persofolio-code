@@ -7,22 +7,22 @@ type open = {
 };
 
 export const Container = styled.div`
+  margin-top: 10px;
   width: 100%;
   height: 100%;
-  background: #e67e22;
+  background: #e8702a;
   display: flex;
   justify-content: center;
-  margin-top: 10px;
 `;
 export const Wrapper = styled.div`
   width: ${variable.w1300px};
-  height: 420px;
+  height: 450px;
+  padding: 30px 0px 30px 65px;
   display: flex;
   ${r768px({ padding: '30px 10px', height: 'auto', width: '100%', flexDirection: 'column' })}
 `;
 export const Left = styled.div`
-  height: 420px;
-  padding: 20px 50px;
+  height: 100%;
   flex: 1;
   display: flex;
   justify-content: center;
@@ -36,13 +36,6 @@ export const IconImg = styled.img`
   height: 100%;
   border-radius: 12px;
   background: no-repeat center cover;
-  transition: all 1s;
-  /* transform: scale(1.1); */
-  ${Left}:hover & {
-    @media (hover: hover) {
-      transform: scale(0.95);
-    }
-  }
 `;
 export const IconContianer = styled.div`
   position: absolute;
@@ -63,7 +56,7 @@ export const IconTitle = styled.h1`
   })}
   ${Left}:hover & {
     @media (hover: hover) {
-      transform: translate(-50%, -120%) scale(1.2);
+      transform: translate(-50%, -100%) scale(1.1);
     }
   }
 `;
@@ -79,7 +72,7 @@ export const IconBox = styled.div`
   })}
   ${Left}:hover & {
     @media (hover: hover) {
-      transform: translate(-50%, -0%) scale(1.2);
+      transform: translate(-50%, -0%) scale(1.1);
     }
   }
 `;
@@ -91,7 +84,6 @@ export const Right = styled.div`
 `;
 export const ItmeBox = styled.div`
   width: 100%;
-  padding-right: 60px;
   ${r768px({ width: '100%', marginTop: '10px', padding: '0px 20px' })}
 `;
 export const Item = styled.a`
@@ -106,11 +98,6 @@ export const Item = styled.a`
   transition: all 0.3s linear;
   margin: auto;
   ${r768px({ width: '100%', height: '140px' })}
-  &:hover {
-    @media (hover: hover) {
-      transform: scale(1.05);
-    }
-  }
 
   &:nth-child(2) {
     margin-top: 20px;
@@ -120,13 +107,25 @@ export const Item = styled.a`
 export const ItemImg = styled.img`
   width: 100px;
   height: 100px;
+  transition: all 1s;
   ${r768px({ width: '70px', height: '70px' })};
+  ${Item}:hover & {
+    @media (hover: hover) {
+      transform: scale(1.1);
+    }
+  }
 `;
 export const ItemTitle = styled.h1`
   font-size: ${variable.d18px};
   font-weight: 500;
   padding-left: 20px;
+  transition: all 1s;
   ${r768px({ fontSize: variable.m18px, paddingLeft: '10px' })};
+  ${Item}:hover & {
+    @media (hover: hover) {
+      transform: scale(1.1);
+    }
+  }
 `;
 export const Document = styled.div<open>`
   display: ${(props) => !props.open && 'none'};

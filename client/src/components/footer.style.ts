@@ -4,15 +4,16 @@ import variable from '../style/variable';
 
 export const Contianer = styled.div`
   margin-top: 10px;
-  height: 200px;
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: ${variable.white};
-  ${r768px({})}
+  background: #f4f1e6;
 `;
 
 export const Wrapper = styled.div`
-  font-size: ${variable.d20px};
+  font-size: ${variable.d18px};
   color: ${variable.black};
+
+  ${r768px({ fontSize: variable.m16px })}
 `;

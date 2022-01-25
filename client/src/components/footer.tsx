@@ -4,7 +4,7 @@ import { Contianer, Wrapper } from './footer.style';
 const Footer = () => {
   return (
     <Contianer>
-      <Wrapper>HanJun Kim</Wrapper>
+      <Wrapper>Web Front-end développeur portfolio</Wrapper>
     </Contianer>
   );
 };

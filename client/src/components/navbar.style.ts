@@ -12,6 +12,7 @@ export const Container = styled.header`
   justify-content: center;
   position: fixed;
   width: 100%;
+  background: #f4f1e6;
   z-index: 99;
 `;
 
@@ -19,9 +20,8 @@ export const Wrapper = styled.nav`
   width: ${variable.w1300px};
   height: 60px;
   display: flex;
-  padding: 0px 70px;
-
-  ${r768px({ padding: '0px 30px' })}
+  padding: 0px 60px;
+  ${r768px({ padding: '0px 30px' })};
 `;
 
 export const Left = styled.div`
@@ -86,7 +86,7 @@ export const Menu = styled.ul<open>`
   margin-top: 0px;
   align-items: center;
   font-size: 18px;
-  background: ${variable.white};
+  background: #f4f1e6;
   margin-left: 20px;
   @media (max-width: 768px) {
     flex-flow: column nowrap;
@@ -127,7 +127,7 @@ export const Item = styled.a`
       background-color: ${variable.orange};
       height: 2px;
       width: 0;
-      bottom: 21px;
+      bottom: -1px;
       transition: all 0.3s linear;
       left: 50%;
       transform: translateX(-50%);

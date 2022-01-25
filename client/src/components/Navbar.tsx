@@ -23,19 +23,22 @@ const Navbar = () => {
       <Wrapper>
         <Left>
           <Link to="/">
-            <Logo>Junhan</Logo>
+            <Logo>HanJun</Logo>
           </Link>
         </Left>
         <Center></Center>
         <Right>
           <Menu open={open}>
-            <Link to="/curriculum">
+            <Link to="/">
+              <Item>Home</Item>
+            </Link>
+            <Link to={'/curriculum'}>
               <Item>Curriculum</Item>
             </Link>
-            <Link to="/apprendre">
+            <Link to={'/apprendre'}>
               <Item>Apprendre</Item>
             </Link>
-            <Link to="/contact">
+            <Link to={'/contact'}>
               <Item>Contact</Item>
             </Link>
           </Menu>

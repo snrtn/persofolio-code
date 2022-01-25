@@ -10,6 +10,7 @@ import {
   Address,
   Right,
   Image,
+  Text,
   Video,
 } from './presente.style';
 
@@ -36,7 +37,9 @@ const Presente = () => {
           </Info>
         </Left>
         <Right>
-          <Image onClick={() => setCall(true)}></Image>
+          <Image onClick={() => setCall(true)}>
+            <Text>Click</Text>
+          </Image>
           <Video
             call={call}
             onClick={() => setCall(false)}

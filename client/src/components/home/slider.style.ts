@@ -13,6 +13,7 @@ type slideIndex = {
 };
 
 export const Container = styled.div`
+  margin-top: 10px;
   display: flex;
   position: relative;
   overflow: hidden;
@@ -87,6 +88,7 @@ export const SubWrapper = styled.div<bg>`
 
 export const Slide = styled.div`
   width: ${variable.w1300px};
+  padding: 0px 0px 0px 55px;
   height: 500px;
 `;
 
@@ -102,10 +104,9 @@ export const Left = styled.div`
   flex-direction: column;
   justify-content: center;
   color: #fff;
-  padding: 0px 0px 0px 70px;
   ${r768px({
     justifyContent: 'start',
-    padding: '130px 50px 0px 60px',
+    padding: '130px 50px 0px 30px',
   })}
 `;
 export const Title = styled.h1`
@@ -132,7 +133,6 @@ export const Right = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-right: 35px;
   ${r768px({
     display: 'none',
   })}
