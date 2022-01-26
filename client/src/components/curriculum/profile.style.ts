@@ -64,7 +64,7 @@ export const Desc = styled.p`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 50px 50px;
+  padding: 50px 100px 50px 0px;
   font-size: ${variable.d20px};
   text-align: justify;
   ${r768px({

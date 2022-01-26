@@ -51,7 +51,7 @@ export const Container = styled.div`
         width: '100%',
         height: '100%',
         margin: '20px 0px',
-        padding: '230px 50px 0px 50px',
+        padding: '150px 20px 0px 20px',
       })}
       ${r1280px({
         width: '100%',
@@ -134,7 +134,7 @@ export const Container = styled.div`
     background: transparent;
     ${r768px({
       width: '100%',
-      bottom: '60px',
+      bottom: '150px',
     })}
     ${r1280px({
       width: '100%',

@@ -10,7 +10,7 @@ export const Container = styled.div`
   margin-top: 10px;
   width: 100%;
   height: 100%;
-  background: #e8702a;
+  background: #ed6942;
   display: flex;
   justify-content: center;
 `;
@@ -33,9 +33,10 @@ export const Left = styled.div`
 `;
 export const IconImg = styled.img`
   width: 100%;
-  height: 100%;
+  height: 410px;
   border-radius: 12px;
   background: no-repeat center cover;
+  ${r768px({ height: '100%' })}
 `;
 export const IconContianer = styled.div`
   position: absolute;
@@ -88,7 +89,7 @@ export const ItmeBox = styled.div`
 `;
 export const Item = styled.a`
   width: 80%;
-  height: 175px;
+  height: 195px;
   display: flex;
   justify-content: center;
   align-items: center;

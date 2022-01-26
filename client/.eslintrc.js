@@ -27,6 +27,7 @@ module.exports = {
     // General
     'no-console': 'error',
     'no-extra-parens': 'off',
+    'no-unused-vars': 'off',
 
     // TypeScript
     '@typescript-eslint/no-empty-interface': 'error',

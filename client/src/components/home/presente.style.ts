@@ -10,7 +10,7 @@ export const Container = styled.div`
   margin-top: 10px;
   width: 100%;
   height: 100%;
-  background: #e8702a;
+  background: #ed6942;
   display: flex;
   justify-content: center;
   ${r768px({})}
