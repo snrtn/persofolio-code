@@ -34,7 +34,6 @@ export const Container = styled.div`
       background-size: cover;
       background-repeat: no-repeat;
       transition: all 1.5s;
-      border-radius: 12px;
     }
 
     .textbox {
@@ -48,7 +47,6 @@ export const Container = styled.div`
       padding: 50px 50px 0px 50px;
       box-sizing: border-box;
       color: white;
-      border-radius: 10px;
       ${r768px({
         width: '100%',
         height: '100%',

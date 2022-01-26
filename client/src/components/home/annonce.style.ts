@@ -14,7 +14,7 @@ export const Container = styled.section`
 
 export const Wrapper = styled.div`
   width: ${variable.w1300px};
-  height: 420px;
+  height: 450px;
   box-sizing: border-box;
   display: flex;
   padding: 0px 0px 0px 65px;
@@ -42,7 +42,7 @@ export const Img = styled.div`
 `;
 export const Right = styled.div`
   flex: 1;
-  height: 400px;
+  height: 450px;
   display: flex;
   justify-content: Left;
   align-items: center;

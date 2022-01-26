@@ -18,7 +18,7 @@ export const Container = styled.div`
 
 export const Wrapper = styled.div`
   width: ${variable.w1300px};
-  height: 420px;
+  height: 450px;
   display: flex;
   padding: 0px 65px 0px 65px;
   ${r768px({ width: '100%', height: '100%', flexDirection: 'column', padding: '0px 30px' })}
@@ -151,7 +151,7 @@ export const Right = styled.div`
 
 export const Image = styled.div`
   width: 100%;
-  height: 370px;
+  height: 410px;
   border-radius: 12px;
   background-image: url('https://cdn.pixabay.com/photo/2021/10/27/04/39/camera-6745941_960_720.jpg');
   background-position: center;
@@ -187,7 +187,7 @@ export const Text = styled.p`
 export const Video = styled.video<call>`
   display: ${(props) => !props.call && 'none'};
   width: 100%;
-  height: 400px;
+  height: 410px;
   background: black;
   cursor: pointer;
   position: absolute;

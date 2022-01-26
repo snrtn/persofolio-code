@@ -9,10 +9,11 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 5px 0px;
   ${r768px({})}
 `;
 export const Wrapper = styled.div`
-  margin-top: 10px;
+  margin-top: 20px;
   width: ${variable.w1300px};
   height: 450px;
   padding: 0px 60px;
@@ -48,7 +49,7 @@ export const Img = styled.img`
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  border-radius: 12px;
+  border-radius: 8px;
   ${r768px({
     width: '100%',
   })}
