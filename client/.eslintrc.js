@@ -14,9 +14,39 @@ module.exports = {
     ecmaFeatures: {
       jsx: true,
     },
-    ecmaVersion: 'latest',
+    ecmaVersion: 13,
     sourceType: 'module',
   },
-  plugins: ['react', '@typescript-eslint'],
-  rules: {},
+  plugins: ['react', '@typescript-eslint', 'functional'],
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
+  rules: {
+    // General
+    'no-console': 'error',
+    'no-extra-parens': 'off',
+
+    // TypeScript
+    '@typescript-eslint/no-empty-interface': 'error',
+    '@typescript-eslint/no-empty-function': 'error',
+    '@typescript-eslint/no-extra-parens': 'off',
+    '@typescript-eslint/no-extra-semi': 'error',
+    '@typescript-eslint/no-unused-vars': 'error',
+
+    // React
+    'react/react-in-jsx-scope': 'off',
+    'react/jsx-uses-react': 'off',
+
+    // Functional
+    'functional/prefer-readonly-type': [
+      'warn',
+      {
+        allowLocalMutation: true,
+        allowMutableReturnType: true,
+        ignoreClass: true,
+      },
+    ],
+  },
 };

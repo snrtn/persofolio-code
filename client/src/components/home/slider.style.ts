@@ -3,13 +3,13 @@ import { r768px, r1280px } from '../../style/responsive';
 import variable from '../../style/variable';
 
 type bg = {
-  bg: string;
+  readonly bg: string;
 };
 type direction = {
-  direction: string;
+  readonly direction: string;
 };
 type slideIndex = {
-  slideIndex: number;
+  readonly slideIndex: number;
 };
 
 export const Container = styled.div`

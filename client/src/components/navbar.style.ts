@@ -3,7 +3,7 @@ import { r768px } from '../style/responsive';
 import variable from '../style/variable';
 
 interface open {
-  open: boolean;
+  readonly open: boolean;
 }
 
 export const Container = styled.header`
@@ -45,7 +45,7 @@ export const Logo = styled.h1`
   cursor: pointer;
   transition: all 0.3s linear;
   letter-spacing: 0.07rem;
-  text-decoration: 2px underline ${variable.crimson};
+  text-decoration: 3px underline ${variable.crimson};
   ${r768px({
     fontSize: variable.m18px,
   })}
@@ -74,13 +74,12 @@ export const Right = styled.div`
   })}
 `;
 
-export const Menu = styled.ul<open>`
+export const Menu = styled.div<open>`
   font-family: 'Zilla Slab', sans-serif;
   list-style: none;
   display: flex;
   flex-flow: row nowrap;
   position: absolute;
-  line-height: 40px;
   top: 0;
   justify-content: flex-end;
   margin-top: 0px;
@@ -105,10 +104,10 @@ export const Menu = styled.ul<open>`
 
 export const Item = styled.a`
   width: 100%;
+  display: inline-block;
   height: 60px;
   line-height: 60px;
   font-size: ${variable.d14px};
-  color: ${variable.black};
   cursor: pointer;
   position: relative;
   margin-left: 20px;
@@ -125,9 +124,9 @@ export const Item = styled.a`
       content: '';
       position: absolute;
       background-color: ${variable.orange};
-      height: 2px;
+      height: 3px;
       width: 0;
-      bottom: -1px;
+      bottom: 18px;
       transition: all 0.3s linear;
       left: 50%;
       transform: translateX(-50%);

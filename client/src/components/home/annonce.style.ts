@@ -14,7 +14,7 @@ export const Container = styled.section`
 
 export const Wrapper = styled.div`
   width: ${variable.w1300px};
-  height: 400px;
+  height: 420px;
   box-sizing: border-box;
   display: flex;
   padding: 0px 0px 0px 65px;

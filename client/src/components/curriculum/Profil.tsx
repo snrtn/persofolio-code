@@ -1,19 +1,21 @@
-import React from 'react';
 import { Container, Wrapper, Item, Left, Img, Right, Desc } from './profile.style';
+import { profil } from './profile.data';
 
 const Profil = () => {
   return (
     <Container>
-      <Wrapper>
-        <Item>
-          <Left>
-            <Img></Img>
-          </Left>
-          <Right>
-            <Desc></Desc>
-          </Right>
-        </Item>
-      </Wrapper>
+      {profil.map((item) => (
+        <Wrapper key={item.id}>
+          <Item>
+            <Left>
+              <Img src={item.img}></Img>
+            </Left>
+            <Right>
+              <Desc>{item.desc}</Desc>
+            </Right>
+          </Item>
+        </Wrapper>
+      ))}
     </Container>
   );
 };

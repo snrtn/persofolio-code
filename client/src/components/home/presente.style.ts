@@ -3,7 +3,7 @@ import { r768px, r1280px } from '../../style/responsive';
 import variable from '../../style/variable';
 
 type call = {
-  call: boolean;
+  readonly call: boolean;
 };
 
 export const Container = styled.div`

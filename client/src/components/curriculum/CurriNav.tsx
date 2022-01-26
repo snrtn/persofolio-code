@@ -1,4 +1,3 @@
-import React from 'react';
 import { Container, Wrapper, Menu } from './curriNav.style';
 import { Link } from 'react-router-dom';
 
@@ -58,10 +57,10 @@ const CurriNav = () => {
     <Container>
       <Wrapper>
         <Menu>
-          <Item data-link="Profil" to={'/curriculum'}></Item>
-          <Item data-link="Expériences Professionnelles" to={'/curriculum/exp'}></Item>
-          <Item data-link="Formation" to={'/curriculum/forma'}></Item>
-          <Item data-link="Centre d'intérêt" to={'/curriculum/info'}></Item>
+          <Item data-link="Profil" to="/curriculum"></Item>
+          <Item data-link="Expériences Professionnelles" to="/curriculum/exp"></Item>
+          <Item data-link="Formation" to="/curriculum/forma"></Item>
+          <Item data-link="Centre d'intérêt" to="/curriculum/info"></Item>
         </Menu>
       </Wrapper>
     </Container>
