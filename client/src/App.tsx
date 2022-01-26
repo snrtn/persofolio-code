@@ -48,7 +48,7 @@ function App() {
     };
   });
   return (
-    <Router>
+    <Router basename="/calendar">
       <Container>
         <GlobalStyle />
         <Navbar />
