@@ -29,7 +29,7 @@ const Project = () => {
                 <Desc>{item.desc2}</Desc>
                 <Desc>{item.desc3}</Desc>
                 <Code href={item.code} target="_blank" rel="noopener noreferrer">
-                  Souce Code
+                  Code Source
                 </Code>
               </ItemBox>
             </Item>

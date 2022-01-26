@@ -10,14 +10,14 @@ export const slider = [
     id: 2,
     img: 'https://w7.pngwing.com/pngs/279/604/png-transparent-digital-marketing-advertising-computer-icons-megaphone-angle-text-trademark-thumbnail.png',
     title: 'Alternance',
-    desc: 'Je recherche un contrat en alternance pour acquérir de nouvelles compétences et les mettre en pratique.',
+    desc: 'Je recherche un contrat d’apprentissage (12mois: 3jours - 2jours) pour acquérir de nouvelles compétences et les mettre en pratique.',
     bg: '317256',
   },
   {
     id: 3,
     img: 'https://w7.pngwing.com/pngs/791/922/png-transparent-react-javascript-library-redux-user-interface-tesseract-logo-symmetry-nodejs-thumbnail.png',
     title: 'React',
-    desc: 'Je recherche un contrat en alternance pour acquérir de nouvelles compétences et les mettre en pratique.',
+    desc: 'Projet réalisé avec React.js',
     bg: '317256',
   },
 ];

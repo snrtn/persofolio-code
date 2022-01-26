@@ -30,7 +30,7 @@ const Navbar = () => {
         <Right>
           <Menu open={open}>
             <Link to="/">
-              <Item>Home</Item>
+              <Item>Accueil</Item>
             </Link>
             <Link to="/curriculum">
               <Item>Curriculum</Item>

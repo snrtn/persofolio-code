@@ -13,9 +13,18 @@ import {
   Text,
   Video,
 } from './presente.style';
+import { saveAs } from 'file-saver';
 
 const Presente = () => {
   const [call, setCall] = useState(false);
+
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const saveFile = () => {
+    saveAs(
+      'https://drive.google.com/file/d/1O0ZbKNOrr6rWv8IjlbBgTcV71Pp3e2JD/view?usp=sharing',
+      'example.pdf',
+    );
+  };
 
   return (
     <Container>
@@ -26,6 +35,7 @@ const Presente = () => {
             <Phone>(+33) 6 27 24 46 02</Phone>
             <Email href="mailto:'hanjun.kim.dev@gmail.com">hanjun.kim.dev@gmail.com</Email>
             <Address>77600 Bussy-Saint-Georges</Address>
+            <button onClick={saveFile}>Cliquer pour voir le CV</button>
             <div className="sns">
               <button
                 onClick={() =>

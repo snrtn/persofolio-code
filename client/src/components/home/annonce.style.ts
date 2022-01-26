@@ -53,6 +53,12 @@ export const Title = styled.a`
   color: ${variable.white};
   font-size: ${variable.d20px};
   margin-left: 100px;
+  transition: all 1s;
+  &:hover {
+    @media (hover: hover) {
+      transform: scale(1.1);
+    }
+  }
   ${r768px({
     fontSize: variable.m18px,
     margin: 'auto',

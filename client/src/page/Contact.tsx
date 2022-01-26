@@ -43,7 +43,7 @@ const Contact = () => {
             </div>
             <div className="email-container">
               <label></label>
-              <input type="email" required placeholder="Adress email" name="user_email" />
+              <input type="email" required placeholder="Adresse mail" name="user_email" />
             </div>
 
             <div className="text-container">

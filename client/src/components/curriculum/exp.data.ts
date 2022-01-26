@@ -27,7 +27,7 @@ export const exp = [
     img: 'https://www.ild-security.com/wp-content/uploads/2018/01/20.jpg',
   },
   {
-    title: 'Employé de service, E. Leclerc, Montévrain',
+    title: 'Employé de service, E. Leclerc',
     subtitle: 'Montévrain',
     data: 'Période : 2019-2020',
     dect: 'Nettoyage des rayons',

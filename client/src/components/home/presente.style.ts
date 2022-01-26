@@ -63,11 +63,24 @@ export const Info = styled.article`
     fontSize: variable.m18px,
   })};
 
+  button {
+    border: none;
+    color: white;
+    background: none;
+    margin-top: 10px;
+    font-size: ${variable.d20px};
+    transition: all 1s;
+    &:hover {
+      @media (hover: hover) {
+        transform: scale(1.1);
+      }
+    }
+  }
+
   .sns {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
 
     & button:before {
       content: '';
@@ -127,17 +140,23 @@ export const Name = styled.p`
 
 export const Phone = styled.p`
   font-weight: 500;
-  margin-top: 20px;
+  margin-top: 10px;
 `;
 export const Email = styled.a`
   font-weight: 500;
   color: ${variable.white};
   text-decoration: 1.2px underline ${variable.royalblue};
-  margin-top: 20px;
+  margin-top: 10px;
+  transition: all 1s;
+  &:hover {
+    @media (hover: hover) {
+      transform: scale(1.1);
+    }
+  }
 `;
 export const Address = styled.p`
   font-weight: 500;
-  margin-top: 20px;
+  margin-top: 10px;
 `;
 
 export const Right = styled.div`

@@ -41,7 +41,7 @@ export const Container = styled.div`
     border-right: none;
   }
   .gallery li:nth-child(1) {
-    background: url('https://pixabay.com/get/gf5c410abd86f48f60129895ab6ddf60142710ef381c8d035d424ec5971fcd139789ad6441de2b547ca26df3d6862c6e22369ee5a3239643dd3ae8611a2eadab2_1920.jpg')
+    background: url('https://images.pexels.com/photos/100582/pexels-photo-100582.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')
       no-repeat center center;
   }
   .gallery li:nth-child(2) {

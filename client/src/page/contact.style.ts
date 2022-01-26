@@ -56,10 +56,19 @@ export const Container = styled.div`
       })}
 
       h1 {
+        width: 500px;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
         margin-bottom: 20px;
-        font-size: ${variable.d24px};
+        font-size: ${variable.d20px};
         color: white;
         font-weight: bold;
+        border-radius: 8px;
+        ${r768px({
+          width: '320px',
+          borderRadius: '0px',
+        })}
       }
 
       .name-container {
@@ -114,12 +123,20 @@ export const Container = styled.div`
           width: 500px;
           height: 50px;
           padding: 10px 20px;
-          background-color: #ed6942;
+          background: transparent;
           color: white;
           outline: none;
-          font-size: ${variable.d18px};
+          font-size: ${variable.d20px};
+          color: white;
+          font-weight: bold;
           border: none;
           border-radius: 8px;
+          transition: all 1s;
+          &:hover {
+            @media (hover: hover) {
+              transform: scale(1.1);
+            }
+          }
           ${r768px({
             width: '320px',
             borderRadius: '0px',
