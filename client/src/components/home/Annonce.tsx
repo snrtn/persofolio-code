@@ -22,3 +22,5 @@ const Annonce = () => {
 };
 
 export default Annonce;
+
+// 반응형 레이아웃 수정

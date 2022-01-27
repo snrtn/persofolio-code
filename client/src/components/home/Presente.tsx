@@ -35,14 +35,20 @@ const Presente = () => {
             <Phone>(+33) 6 27 24 46 02</Phone>
             <Email href="mailto:'hanjun.kim.dev@gmail.com">hanjun.kim.dev@gmail.com</Email>
             <Address>77600 Bussy-Saint-Georges</Address>
-            <button onClick={saveFile}>Cliquer pour voir le CV</button>
             <div className="sns">
               <button
+                className="icon"
                 onClick={() =>
                   window.open('https://www.linkedin.com/in/hanjun-kim-1b1741171/', '_blank')
                 }>
                 <i className="fab fa-linkedin-in"></i>
               </button>
+              <div className="toolbox">
+                <button className="icon" onClick={saveFile}>
+                  <i className="fas fa-file-pdf"></i>
+                </button>
+                <span>Curriculum vitæ</span>
+              </div>
             </div>
           </Info>
         </Left>

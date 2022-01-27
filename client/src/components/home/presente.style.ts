@@ -63,24 +63,12 @@ export const Info = styled.article`
     fontSize: variable.m18px,
   })};
 
-  button {
-    border: none;
-    color: white;
-    background: none;
-    margin-top: 10px;
-    font-size: ${variable.d20px};
-    transition: all 1s;
-    &:hover {
-      @media (hover: hover) {
-        transform: scale(1.1);
-      }
-    }
-  }
-
   .sns {
+    margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 
     & button:before {
       content: '';
@@ -101,7 +89,14 @@ export const Info = styled.article`
     & button:nth-child(1):before {
       background-color: #0a66c2;
     }
+    & .toolbox button:before {
+      background-color: #317256;
+    }
     & button .fab {
+      position: relative;
+      transition: 0.5s;
+    }
+    & button .fas {
       position: relative;
       transition: 0.5s;
     }
@@ -112,8 +107,15 @@ export const Info = styled.article`
         border-radius: 50%;
       }
     }
+    & button:hover .fas {
+      @media (hover: hover) {
+        transform: rotateY(360deg);
+        color: #fff;
+        border-radius: 50%;
+      }
+    }
 
-    button {
+    .icon {
       border: 3px solid #fff;
       display: inline-block;
       width: 60px;
@@ -131,6 +133,45 @@ export const Info = styled.article`
       ${r768px({
         justifyContent: variable.m16px,
       })}
+    }
+    .toolbox {
+      &:hover span {
+        @media (hover: hover) {
+          display: block;
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+      button {
+        line-height: 55px;
+      }
+      span {
+        position: absolute;
+        background-color: #000;
+        font-size: ${variable.d14px};
+        color: #fff;
+        width: 160px;
+        text-align: center;
+        padding: 8px;
+        border-radius: 5px;
+        top: -70%;
+        left: 78%;
+        transform: translateX(-50%);
+        display: none;
+        opacity: 0;
+        transition: 0.5s;
+        visibility: hidden;
+        &:after {
+          content: '';
+          position: absolute;
+          background-color: #000;
+          width: 10px;
+          height: 10px;
+          transform: rotate(45deg) translateX(-50%);
+          bottom: -5px;
+          left: 50%;
+        }
+      }
     }
   }
 `;

@@ -26,3 +26,5 @@ export const r1620px = (props: any) => {
     }
   `;
 };
+
+// 사이즈 추가하기

@@ -147,7 +147,7 @@ export const DocumentImg = styled.img`
   width: 60%;
   height: 50%;
   border-radius: 12px;
-  background-image: url('https://ifh.cc/g/AgGava.jpg');
+  background-image: url('https://ifh.cc/g/jBXqGY.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
