@@ -120,7 +120,7 @@ export const Title = styled.h1`
 
 export const Desc = styled.p`
   font-size: ${variable.d20px};
-  letter-spacing: 0.035rem;
+  letter-spacing: 0.03rem;
   font-weight: 300;
   padding-top: 10px;
   ${r768px({

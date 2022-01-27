@@ -128,7 +128,7 @@ export const Container = styled.div`
     width: inherit;
     height: 60px;
     background-color: white;
-    bottom: 130px;
+    bottom: 100px;
     box-sizing: border-box;
     border-top: none;
     background: transparent;
@@ -149,18 +149,18 @@ export const Container = styled.div`
       ${r768px({
         width: '100%',
         justifyContent: 'center',
-        bottom: '-35px',
+        bottom: '-100px',
       })}
       ${r1280px({
-        bottom: '-25px',
+        bottom: '-50px',
       })}
       ${r1620px({
-        bottom: '-25px',
+        bottom: '-50px',
       })}
 
       .icon {
-        width: 60px;
-        height: 60px;
+        width: 45px;
+        height: 45px;
         background: #ffffff99;
         border-radius: 50%;
         cursor: pointer;

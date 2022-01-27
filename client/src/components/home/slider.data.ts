@@ -3,14 +3,14 @@ export const slider = [
     id: 1,
     img: 'https://w7.pngwing.com/pngs/465/495/png-transparent-white-condenser-microphone-illustration-microphone-internet-radio-graphic-designer-microphone-electronics-fm-broadcasting-logo-thumbnail.png',
     title: 'Bonjour ',
-    desc: "Je m'appelle Jun. Actuellement, je suis openclassroom depuis novembre en 2021.",
+    desc: "Je m'appelle Jun. Actuellement,  je suis en formation avec Openclassrooms depuis Novembre 2021. J'ai appris les bases HTML, CSS, React.js en autodidacte depuis un peu plus d'un an.",
     bg: '317256',
   },
   {
     id: 2,
     img: 'https://w7.pngwing.com/pngs/279/604/png-transparent-digital-marketing-advertising-computer-icons-megaphone-angle-text-trademark-thumbnail.png',
     title: 'Alternance',
-    desc: 'Je recherche un contrat d’apprentissage (12mois: 3jours - 2jours) pour acquérir de nouvelles compétences et les mettre en pratique.',
+    desc: 'Je recherche un contrat d’apprentissage (12 mois: 3 jours - 2 jours) pour acquérir de nouvelles compétences et les mettre en pratique.',
     bg: '317256',
   },
   {

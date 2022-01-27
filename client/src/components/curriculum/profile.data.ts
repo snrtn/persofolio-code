@@ -7,7 +7,7 @@ export const profil = [
   {
     id: 2,
     img: 'https://ifh.cc/g/CY1WtJ.jpg',
-    desc: "Après mon service militaire et mon travail dans la sécurité, j'ai décidé de venir en France sans parler la langue pour découvrir ce pays qui m'intéresse depuis longtemps. Je me suis donc inscrit à des cours de français et aiv travaillé dans un grand magasin alimentaire.",
+    desc: "Après mon service militaire et mon travail dans la sécurité, j'ai décidé de venir en France sans parler la langue pour découvrir ce pays qui m'intéresse depuis longtemps. Je me suis donc inscrit à des cours de français et ai travaillé dans un grand magasin alimentaire.",
   },
   {
     id: 3,
