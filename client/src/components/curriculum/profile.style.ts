@@ -8,12 +8,13 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #f0f1f2;
   flex-direction: column;
   padding: 5px 0px;
   ${r768px({})}
 `;
 export const Wrapper = styled.div`
-  margin-top: 20px;
+  margin: 20px 0px;
   width: ${variable.w1300px};
   height: 450px;
   padding: 0px 60px;
@@ -31,7 +32,7 @@ export const Wrapper = styled.div`
 export const Item = styled.section`
   width: 100%;
   height: 100%;
-  background: white;
+  background: #f0f1f2;
   display: flex;
   ${r768px({
     flexDirection: 'column',

@@ -106,7 +106,7 @@ export const Left = styled.div`
   color: #fff;
   ${r768px({
     justifyContent: 'start',
-    padding: '130px 50px 0px 30px',
+    padding: '105px 50px 0px 30px',
   })}
 `;
 export const Title = styled.h1`

@@ -12,10 +12,9 @@ export const Container = styled.div`
     height: 50px;
     border-radius: 100%;
     border: none;
-    background: ${variable.orange};
+    background: #317256;
     color: ${variable.white};
-    font-size: ${variable.d16px};
-    letter-spacing: -0.06em;
+    font-size: ${variable.d32px};
     cursor: pointer;
     transition: opacity 0.3s ease-in;
   }

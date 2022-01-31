@@ -9,7 +9,7 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #317256;
+  background: #f0f1f2;
   overflow: hidden;
   ${r768px({
     width: '100%',
@@ -56,7 +56,7 @@ export const ItemBox = styled.a`
   height: 100%;
   display: inline-block;
   border-radius: 12px;
-  background: #01303f;
+  background: #fff;
   overflow: hidden;
   ${r768px({
     width: '100%',
@@ -81,7 +81,7 @@ export const Title = styled.h1`
   height: 60px;
   padding: 8px 15px;
   font-size: ${variable.d16px};
-  color: ${variable.white};
+  color: ${variable.black};
   font-weight: 500;
   display: flex;
   align-items: center;
@@ -99,7 +99,7 @@ export const Desc = styled.p`
   padding: 8px 15px;
   display: flex;
   align-items: center;
-  color: ${variable.white};
+  color: ${variable.black};
   font-size: ${variable.d14px};
   font-weight: 400;
   ${r768px({
@@ -119,13 +119,13 @@ export const Code = styled.a`
   display: flex;
   align-items: center;
   font-size: ${variable.d16px};
-  color: ${variable.white};
+  color: ${variable.black};
   font-weight: 500;
   transition: all 0.3s linear;
   &:hover {
     @media (hover: hover) {
-      background: #f4f1e6;
-      color: ${variable.black};
+      background: #999;
+      color: ${variable.white};
     }
   }
   ${r768px({

@@ -6,7 +6,7 @@ export const Container = styled.section`
   margin-top: 10px;
   width: 100%;
   height: 100%;
-  background: #317256;
+  background: #f0f1f2;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
@@ -50,7 +50,7 @@ export const Right = styled.div`
 `;
 
 export const Title = styled.a`
-  color: ${variable.white};
+  color: ${variable.black};
   font-size: ${variable.d20px};
   margin-left: 100px;
   transition: all 1s;

@@ -3,12 +3,11 @@ import { r768px } from '../style/responsive';
 import variable from '../style/variable';
 
 export const Contianer = styled.div`
-  margin-top: 10px;
   height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #f4f1e6;
+  background: #e7e7e7;
 `;
 
 export const Wrapper = styled.div`

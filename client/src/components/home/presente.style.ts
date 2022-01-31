@@ -10,7 +10,7 @@ export const Container = styled.div`
   margin-top: 10px;
   width: 100%;
   height: 100%;
-  background: #ed6942;
+  background: #f0f1f2;
   display: flex;
   justify-content: center;
   ${r768px({})}
@@ -44,7 +44,7 @@ export const Left = styled.section`
 export const Info = styled.article`
   width: 100%;
   height: 100%;
-  color: ${variable.white};
+  color: ${variable.black};
   border-radius: 12px;
 
   display: flex;
@@ -185,7 +185,7 @@ export const Phone = styled.p`
 `;
 export const Email = styled.a`
   font-weight: 500;
-  color: ${variable.white};
+  color: ${variable.black};
   text-decoration: 1.2px underline ${variable.royalblue};
   margin-top: 10px;
   transition: all 1s;

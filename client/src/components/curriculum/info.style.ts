@@ -5,7 +5,7 @@ import variable from '../../style/variable';
 export const Container = styled.div`
   width: 100%;
   height: 85vh;
-  margin: 10px auto 0px auto;
+  /* margin: 10px auto 0px auto; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,7 +63,7 @@ export const Container = styled.div`
 
   .content_info {
     position: absolute;
-    background-color: #fff;
+    background: #f0f1f2;
     text-align: center;
     height: 200px;
     bottom: -200px;

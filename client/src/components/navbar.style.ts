@@ -12,7 +12,7 @@ export const Container = styled.header`
   justify-content: center;
   position: fixed;
   width: 100%;
-  background: #f4f1e6;
+  background: #fff;
   z-index: 99;
 `;
 
@@ -85,7 +85,7 @@ export const Menu = styled.div<open>`
   margin-top: 0px;
   align-items: center;
   font-size: 18px;
-  background: #f4f1e6;
+  background: #fff;
   margin-left: 20px;
   @media (max-width: 768px) {
     flex-flow: column nowrap;

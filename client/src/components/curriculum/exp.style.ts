@@ -7,8 +7,9 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
+  background: #f0f1f2;
   height: 85vh;
-  margin: 10px auto 0px auto;
+  padding: 20px auto;
   ${r768px({
     width: '100%',
   })}
@@ -16,7 +17,6 @@ export const Container = styled.div`
   .container {
     display: flex;
     width: 100%;
-
     padding: 0px 60px;
     position: absolute;
     color: white;
@@ -42,7 +42,7 @@ export const Container = styled.div`
       left: 50%;
       transform: translate(-50%, -50%);
       width: 700px;
-      height: 390px;
+      height: 350px;
       background-color: rgba(0, 0, 0, 0.7);
       padding: 50px 50px 0px 50px;
       box-sizing: border-box;
@@ -128,13 +128,13 @@ export const Container = styled.div`
     width: inherit;
     height: 60px;
     background-color: white;
-    bottom: 100px;
+    bottom: 50px;
     box-sizing: border-box;
     border-top: none;
     background: transparent;
     ${r768px({
       width: '100%',
-      bottom: '150px',
+      bottom: '80px',
     })}
     ${r1280px({
       width: '100%',

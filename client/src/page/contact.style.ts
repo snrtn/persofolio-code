@@ -15,7 +15,7 @@ export const Container = styled.div`
     justify-content: center;
     align-items: center;
     height: 100vh;
-    padding-top: 50px;
+    padding-top: 70px;
 
     ${r768px({
       width: '100%',
