@@ -35,9 +35,9 @@ const Navbar = () => {
             <Link to="/curriculum">
               <Item>Curriculum</Item>
             </Link>
-            <Link to="/apprendre">
+            {/* <Link to="/apprendre">
               <Item>Apprendre</Item>
-            </Link>
+            </Link> */}
             <Link to="/contact">
               <Item>Contact</Item>
             </Link>
