@@ -8,7 +8,7 @@ export const Container = styled.div`
   align-items: center;
   width: 100%;
   background: #f0f1f2;
-  height: 85vh;
+  height: 100vh;
   padding: 20px auto;
   ${r768px({
     width: '100%',
@@ -29,7 +29,7 @@ export const Container = styled.div`
 
     .backimg {
       width: 100%;
-      height: 82vh;
+      height: 100vh;
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
@@ -128,13 +128,13 @@ export const Container = styled.div`
     width: inherit;
     height: 60px;
     background-color: white;
-    bottom: 50px;
+    bottom: 60px;
     box-sizing: border-box;
     border-top: none;
     background: transparent;
     ${r768px({
       width: '100%',
-      bottom: '80px',
+      bottom: '100px',
     })}
     ${r1280px({
       width: '100%',

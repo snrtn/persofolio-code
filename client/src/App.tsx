@@ -65,7 +65,7 @@ function App() {
         </Routes>
         <Footer />
         <button className={BtnStatus ? 'topBtn active' : 'topBtn'} onClick={handleTop}>
-          ▲
+          TOP
         </button>
       </Container>
     </Router>

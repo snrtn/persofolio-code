@@ -12,9 +12,9 @@ export const Container = styled.div`
     height: 50px;
     border-radius: 100%;
     border: none;
-    background: #317256;
+    background: ${variable.orange};
     color: ${variable.white};
-    font-size: ${variable.d32px};
+    font-size: ${variable.d18px};
     cursor: pointer;
     transition: opacity 0.3s ease-in;
   }

@@ -106,7 +106,7 @@ export const Left = styled.div`
   color: #fff;
   ${r768px({
     justifyContent: 'start',
-    padding: '105px 50px 0px 30px',
+    padding: '120px 50px 0px 20px',
   })}
 `;
 export const Title = styled.h1`
@@ -124,7 +124,7 @@ export const Desc = styled.p`
   font-weight: 300;
   padding-top: 10px;
   ${r768px({
-    fontSize: variable.m20px,
+    fontSize: variable.m18px,
   })}
 `;
 

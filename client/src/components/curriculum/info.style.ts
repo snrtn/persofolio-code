@@ -5,7 +5,6 @@ import variable from '../../style/variable';
 export const Container = styled.div`
   width: 100%;
   height: 85vh;
-  /* margin: 10px auto 0px auto; */
   display: flex;
   justify-content: center;
   align-items: center;
